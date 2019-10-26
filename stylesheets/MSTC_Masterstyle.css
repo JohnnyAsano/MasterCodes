@@ -647,7 +647,7 @@ margin: 0;
 }
 
 .widget.ContactForm {
-    display: none;
+    display: inline-block;
 }
 
 /* WidgeT ExtraS C S S */
