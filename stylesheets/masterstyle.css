@@ -1,5 +1,4 @@
 
-/* Mastercode mastersty1E */
 
 /* ReseT  C S S */
 
@@ -71,13 +70,6 @@ a,img,#load-more {
 transition:background-color .1s linear, color .1s linear;
 }
 
-img {
-height:auto;
-max-width:100%;
-vertical-align:bottom;
-width:auto;
-}
-
 /* PrimarY StructurE  C S S */
 
 body {
@@ -91,12 +83,6 @@ font-size:15px;
 .clr{clear:both;float:none}
 .ct-wrapper:before,.ct-wrapper:after{display:block;height:0;overflow:hidden}
 .ct-wrapper:after{clear:both}
-
-.ct-wrapper{
-position:relative;
-max-width:960px;
-margin:0 auto;
-padding:0}
 
 .outer-wrapper{
 background:transparent;
@@ -122,13 +108,7 @@ margin:0
 #header {
 padding: 0;
 }
-#header-inner {
-width: 940px;
-position: relative;
-    margin: 0 auto;
-    text-align: left;
-	z-index: -1000;
-}
+
 #logo {
 overflow: hidden;
 min-height: 200px;
@@ -155,16 +135,6 @@ position: relative;
 background: transparent;
     margin: 0 6px 16px;
     width: 306px;
-}
-
-.post .entry-content {
-    background: none repeat scroll 0 0 transparent;
-    border-color: white;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 3px;
-    width: auto;
-    word-wrap: break-word;
 }
 
 img.postthumb{max-width:100%;width:100%;}
@@ -648,7 +618,7 @@ margin: 0;
 }
 
 .widget.ContactForm {
-    display: inline-block;
+    display: none;
 }
 
 /* WidgeT ExtraS C S S */
